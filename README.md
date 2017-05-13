@@ -1,7 +1,7 @@
 # scout_compass_bearing_game
 Calculate bearings and generate: post labels, bearing following instructions and game cheat sheet instructions.  
 
-== Scout compass bearing challenge game ==
+## Scout compass bearing challenge game
 
 Posts are set out in a circle a good distance apart. 
 One post starting at magnetic North,
@@ -18,9 +18,11 @@ https://en.wikipedia.org/wiki/Irish_grid_reference_system#/media/File:Irish_Grid
 
 A full scrambled alphabet is on each post. 
 This allows a large combination of word instructions to be used.
+It allows interesting quotes or song lyrics to be used as a challenge for a group of scouts.
 
 e.g. of post label with post name and scrambled alphabet in grid:
 
+```
 ########################################
 #
 # POST: 337.5 => NNW
@@ -36,9 +38,11 @@ e.g. of post label with post name and scrambled alphabet in grid:
 #      Northing
 #
 ########################################
+```
 
 e.g. of instruction sheet for a two letter word:
 
+```
 ########################################
 #
 # Word 0
@@ -50,9 +54,11 @@ e.g. of instruction sheet for a two letter word:
 #    Record letter @ Easting 6, Northing 4  _______
 #
 ########################################
+```
 
 e.g. of portion of cheat sheet
 
+```
 ########################################
 # Cheat Sheet
 #
@@ -63,11 +69,27 @@ e.g. of portion of cheat sheet
 .
 .
 .
+```
 
 A python script is used . . . 
 16 posts are currently used.
 8 posts or other number can wasily be used with script adjustment.
+The word list or quote used can be changed in script.
 TODO: map and allow arbitrary positioning of posts e.g. in rectangle or other shape would be suitable for a permanently marked compass bearing challenge. 
 
 The script is quite messy currently . . WIP . . beware of roadworks and dragons. 
+
+## FILES:
+
+The script, run:
+`python scout_bearing_to_compasspoint.py`
+Numpy is used a little bit, matplotlib is called but not needed to generate game instructions,
+
+Output of script text post labels and word instructions:
+scout_bearing_to_compasspointDEBUG.txt
+
+Put the script in an open-office doc, insert a section around the post labels and in format->section make it two columns. Do the same around word instructions. Adjust labels/instructions so they do not wrap around a column or page. print. Cut up. Attach labels to posts. Have fun! 
+scout_compass_bearing_posts.odt
+scout_compass_bearing_posts.pdf
+
 
