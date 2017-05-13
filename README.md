@@ -82,14 +82,16 @@ The script is quite messy currently . . WIP . . beware of roadworks and dragons.
 ## FILES:
 
 The script, run:
-`python scout_bearing_to_compasspoint.py`
+* `python scout_bearing_to_compasspoint.py`
 Numpy is used a little bit, matplotlib is called but not needed to generate game instructions,
 
 Output of script text post labels and word instructions:
-scout_bearing_to_compasspointDEBUG.txt
+* scout_bearing_to_compasspointDEBUG.txt
 
 Put the script in an open-office doc, insert a section around the post labels and in format->section make it two columns. Do the same around word instructions. Adjust labels/instructions so they do not wrap around a column or page. print. Cut up. Attach labels to posts. Have fun! 
-scout_compass_bearing_posts.odt
-scout_compass_bearing_posts.pdf
+
+See files:
+* `scout_compass_bearing_posts.odt`
+* `scout_compass_bearing_posts.pdf`
 
 
